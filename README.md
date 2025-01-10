@@ -3,6 +3,7 @@ A Project from the Object-Oriented Programming Specialization by the University 
 📋 Overview
 This project is a Cryptocurrency Management System implemented in C++. The project demonstrates core object-oriented programming (OOP) principles such as encapsulation, inheritance, polymorphism, and abstraction. It is designed to manage and simulate transactions, wallets, and cryptocurrencies while showcasing best practices in C++ programming.
 
+
 🎯 Features
 Cryptocurrency Wallets: Create, manage, and store balances for various cryptocurrencies.
 Transaction Simulation: Transfer cryptocurrencies between wallets with transaction history tracking.
