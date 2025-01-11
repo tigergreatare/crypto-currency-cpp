@@ -24,21 +24,23 @@ Polymorphism: Dynamic behavior for handling various cryptocurrency operations.
 Encapsulation: Secure data storage and controlled access to sensitive information.
 Abstraction: Simplified interfaces for managing wallets and transactions.
 📂 Project Structure
-bash
-Copy code
 /cryptocurrency-management
 ├── src
 │   ├── main.cpp                # Entry point of the application
 │   ├── Wallet.h, Wallet.cpp    # Wallet class and implementation
 │   ├── Transaction.h, .cpp     # Transaction class and implementation
 │   ├── Market.h, Market.cpp    # Market class for price tracking
-│   └── Utils.h, Utils.cpp      # Utility functions for encryption, validation
+│   ├── OrderBook.h, .cpp       # OrderBook management and operations
+│   ├── CSVReader.h, .cpp       # CSV parsing for input data
+│   ├── MerkelMain.h, .cpp      # Core functionality and simulation logic
+
 ├── tests
-│   ├── WalletTests.cpp         # Unit tests for Wallet
-│   ├── TransactionTests.cpp    # Unit tests for Transactions
-│   └── MarketTests.cpp         # Unit tests for Market operations
+│   └── tes.cpp                 # Experimental file for testing and saving code snippets
+├── data
+│   └── 20200317.csv            # Sample data file for testing and simulation // you can use your own data file , i forgot to include it in the built 
 ├── README.md                   # Project documentation
-└── Makefile                    # Build instructions
+├── Makefile                    # Build instructions
+└── .gitignore                  # Ignored files for Git
 
 
 📚 Learning Objectives
